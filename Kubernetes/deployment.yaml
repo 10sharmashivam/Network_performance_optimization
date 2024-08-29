@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: network-optimization-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: network-optimization
+  template:
+    metadata:
+      labels:
+        app: network-optimization
+    spec:
+      containers:
+      - name: network-optimization
+        image: network-optimization-tool:latest
+        ports:
+        - containerPort: 80
