@@ -90,6 +90,6 @@ Apply the deployment.yaml and service.yaml files to your Kubernetes cluster.
 
 The tool generates a graph showing network performance over time. The inverted V-shaped graph represents fluctuations in network performance, where the peak indicates maximum activity or potential bottleneck.
 
-Future Work
+## Future Work
 
-	•	Machine Learning Integration: Future versions may include predictive modeling to forecast network performance trends and automate optimizations.
+Machine Learning Integration: Future versions may include predictive modeling to forecast network performance trends and automate optimizations.
